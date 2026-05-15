@@ -1,0 +1,90 @@
+/* Main content layout */
+body {
+    max-width: 840px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: #1111113e 0px 2px 1px 1.5px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(18, 10, 72);
+}
+
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+
+}
+
+main {
+    max-width: 840px;
+
+}
+
+/* Contenedor principal del menu */
+nav {
+    background-color: #333333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav a {
+    color: #ffffff;
+    padding: 15px;
+    display: block;
+
+}
+
+/* Profile image styling */
+main img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #000000;
+    padding: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+img.me {
+    border-radius: 50%;
+    border: rgb(18, 10, 72) solid 3px;
+    margin-top: 40px;
+    box-shadow: #1111113e 0px 2px 1px 1.5px;
+}
+
+/* Aside container styling */
+aside {
+    width: 20rem;
+    margin: 1rem auto;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+
+}
+
+/* Aside image styling */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Paragraph padding reset */
+p {
+    padding: 0;
+    font-size: 20px;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
